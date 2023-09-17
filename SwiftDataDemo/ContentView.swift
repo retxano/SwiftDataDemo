@@ -55,7 +55,7 @@ struct ContentView: View {
     }
     
     func updateItem(_ item: DataItem) {
-        item.name = "Item updated"
+        item.name = "Item Updated"
         try? context.save()
     }
 }
